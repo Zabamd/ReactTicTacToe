@@ -1,0 +1,16 @@
+.field {
+  width: 10vw;
+  height: 10vh;
+  background-color: #87ceeb;
+  font-weight: bolder;
+  border: 1px solid #000000;
+  font-size: 36px;
+  transition: box-shadow 0.2s;
+}
+.field:hover {
+  background-color: #3eacd8;
+  box-shadow: inset 0px 0px 0 2px #000000;
+}
+.field:active {
+  box-shadow: inset 0px 0px 0 10px #000000;
+}
